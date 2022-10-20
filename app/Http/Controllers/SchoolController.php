@@ -33,7 +33,7 @@ class SchoolController extends Controller
 
    public function listStudent(){
 
-        $students = Course::find( 1 ) ->student;
+        $students = Course::find(1) ->student;
 
         return view ("student",[
                         "students" => $students
