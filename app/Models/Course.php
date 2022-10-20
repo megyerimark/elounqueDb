@@ -10,8 +10,4 @@ class Course extends Model
 {
     use HasFactory;
 
-    public function student(){
-
-        return $this->hasMany(Student::class);
-    }
 }
