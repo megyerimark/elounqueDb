@@ -9,10 +9,16 @@ class SchoolController extends Controller
 {
     public function listStudent(){
 
-        $student = Student::with('course')->get();
-        echo "<pre>";
-        print_r($student);
+        $students = Student::with('course')->get();
+    
        
+        foreach($students as $student){
 
+        
+        echo "<pre>";
+  
+         print_r($student->name);
+         print_r($student->course->course);
+        }
     }
 }
