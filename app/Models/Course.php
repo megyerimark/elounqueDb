@@ -4,13 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\CourseModel;
+use App\Models\Student;
 
-class StudentModel extends Model
+class Course extends Model
 {
     use HasFactory;
 
-    public function course(){
-        return $tihs->hasMany(Course::class);
+    public function student(){
+
+        return $this->hasMany(Student::class);
     }
 }

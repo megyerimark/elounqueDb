@@ -5,7 +5,7 @@ insert into courses (course, price) VALUES
 ("SQL",115465),
 ("HTML",184156156);
 
-INSERT INTO studens(name,email,phone,course_id)VALUES
+INSERT INTO students(name,email,phone,course_id)VALUES
 ("Béla" ,"bela@net.hu","+36307140806" , 2),
 ("Aranka" ,"aranka@net.hu","+36307140806" , 1),
 ("Pista" ,"pista@net.hu","+36307140806" , 3),
