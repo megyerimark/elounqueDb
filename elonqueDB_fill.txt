@@ -1,0 +1,16 @@
+insert into courses (course, price) VALUES
+("Laravel",120000),
+("java",85600),
+("PHP",4815152),
+("SQL",115465),
+("HTML",184156156);
+
+INSERT INTO studens(name,email,phone,course_id)VALUES
+("Béla" ,"bela@net.hu","+36307140806" , 2),
+("Aranka" ,"aranka@net.hu","+36307140806" , 1),
+("Pista" ,"pista@net.hu","+36307140806" , 3),
+("Jani" ,"jani@net.hu","+36307140806" , 5),
+("Géza" ,"géza@net.hu","+36307140806" , 4);
+
+
+DELETE FROM `courses` WHERE `courses`.`id` = 10 törlom az adott rekordot 
