@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string("name");
             $table->string("email");
             $table->string("phone");
-            $table->foreignId("course_id");
+        
             $table->timestamps();
         });
     }
