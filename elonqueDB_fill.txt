@@ -18,4 +18,8 @@ DELETE FROM `courses` WHERE `courses`.`id` = 10 törlom az adott rekordot
 
 
 belongsTo- nincs benne idegen kulcs
-hasMany -> ezekben vannak a(z) FK-foreign kes
+hasMany -> ezekben vannak a(z) FK-foreign key
+
+
+
+
