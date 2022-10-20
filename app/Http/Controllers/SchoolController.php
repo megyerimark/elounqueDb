@@ -12,13 +12,21 @@ class SchoolController extends Controller
         $students = Student::with('course')->get();
     
        
-        foreach($students as $student){
+        // foreach($students as $student){
 
         
-        echo "<pre>";
+        // echo "<pre>";
   
-         print_r($student->name);
-         print_r($student->course->course);
-        }
+        //  print_r($student->name. " ");
+        //  print_r($student->course->course);
+        // }
+
+
+        return view ("student",[
+            "students" => $students
+        ]);
+
+
+
     }
 }
